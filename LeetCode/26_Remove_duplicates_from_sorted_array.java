@@ -1,5 +1,6 @@
-public class Solution {
-    public int removeDuplicates(int[] A) {
+/*author: dalu*/
+public int removeDuplicates(int[] A) {
+
         if(A.length==0) return 0;
         
         int insertIndex = 1;
@@ -8,5 +9,5 @@ public class Solution {
             if(A[i]!=A[insertIndex-1]) A[insertIndex++] = A[i];
         }
         return insertIndex;
-    }
 }
+
