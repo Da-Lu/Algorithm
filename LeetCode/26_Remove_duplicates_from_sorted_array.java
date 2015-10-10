@@ -1,4 +1,5 @@
 /*author: dalu*/
+/*date: 10/10/15*/
 public int removeDuplicates(int[] A) {
 
         if(A.length==0) return 0;
