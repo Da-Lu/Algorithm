@@ -1,1 +1,1 @@
-This is js version of LeetCode
+This is JS version of LeetCode
